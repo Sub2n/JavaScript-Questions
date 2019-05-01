@@ -1,4 +1,4 @@
-# Deifference between JavaScript and ECMA Script
+# Difference between JavaScript and ECMA Script
 
 ## JavaScript
 JavaScript는 core를 이루는 **ECMAScript** + Broswer가 별도 지원하는 **client Web API**를 포함한 개념이다.
