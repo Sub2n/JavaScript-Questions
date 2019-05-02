@@ -1,4 +1,4 @@
-# Deifference between JavaScript and ECMA Script
+# Difference between JavaScript and ECMA Script
 
 ## JavaScript
 JavaScript는 core를 이루는 **ECMAScript** + Broswer가 별도 지원하는 **client Web API**를 포함한 개념이다.
@@ -72,11 +72,11 @@ var score = 50 + 50;
 2. x = 100에서, 100은 literal notation으로 생성한 literal이고 x는 identifier expression이며 x=100 자체는 expression인 statement라서 평가된 값으로 할당되는 게 맞나?
 > 동등 비교(==) 연산자는 좌항과 우항의 피연산자를 비교할 때 암묵적 타입 변환을 통해 타입을 일치시킨 후 같은 값을 갖는지 비교한다. 따라서 동등 비교 연산자는 좌항과 우항의 피연산자가 타입은 다르더라도 암묵적 타입 변환 후에 같은 값을 수 있으면 true를 반환한다.
 3. == 로 암묵적 타입 변환을 할 때 좌항의 타입으로 우항을 변환하는 건지, 우항의 타입으로 좌항을 변환하는 건지 궁금
-4. 
+
 ```javascript
 var x, y, z;
 
 x = 1, y = 2, z = 3; // 3
 ```
-x = 1, y = 2, z = 3에 다 할당이 안 되고 z = 3에만 할당이 되는 건가?
+4. x = 1, y = 2, z = 3에 다 할당이 안 되고 z = 3에만 할당이 되는 건가?
 5. undefined를 string으로 형변환시 'undefined'가 되는건가?
