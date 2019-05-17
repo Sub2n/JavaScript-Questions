@@ -47,7 +47,7 @@
 
 6. Function.prototype.apply / call / bind에 의한 간접 호출
 
-   - apply(thisArg, arguments[...])
+   - apply(thisArg[, arguments[...]])
 
      ```javascript
      function foo() {
@@ -60,7 +60,7 @@
 
      apply 메소드는 argument로 전달한 thisArg 객체를 자신을 호출한 함수의 this로 전달하면서 호출한다. 이 때  arguments를 배열로 전달한다.
 
-   - call(thisArg, arg1, arg2, arg3, ...)
+   - call(thisArg[, arg1, arg2, arg3, ...])
 
      ```javascript
      function foo() {
@@ -72,7 +72,7 @@
 
      call 메소드도  argument 로 전달한 thisArg 객체를 자신을 호출한 함수의 this로 전달하면서 호출한다. 이 때 arguments를 배열이 아니라 풀어서 나열해 전달한다.
 
-   - bind(thisArg)
+   - bind(thisArg[, arg1, arg2, arg3, ...])
 
      ``` javascript
      function foo(callback) {
